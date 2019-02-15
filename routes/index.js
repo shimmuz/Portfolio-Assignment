@@ -10,20 +10,15 @@ router.get('/aboutme', function(req, res, next) {
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 
 router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
+  res.render('project', { title: 'Projects' });
 });
 
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+  res.render('service', { title: 'Services' });
 });
-router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
-});
-
-
 
 module.exports = router;
