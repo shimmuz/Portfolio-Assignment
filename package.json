@@ -6,16 +6,16 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
-    "express": "~4.16.0",
+    "express": "^4.16.4",
     "font-awesome": "^4.7.0",
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
     "morgan": "~1.9.0",
-    "popper.js": "^1.14.6"
+    "popper.js": "^1.14.7"
   },
   "description": "Express Portfolio",
   "main": "server.js",
@@ -26,6 +26,14 @@
     "@types/cookie-parser": "^1.4.1",
     "@types/express": "^4.16.1",
     "@types/morgan": "^1.7.35",
-    "@types/node": "^10.12.18"
-  }
+    "@types/node": "^10.12.26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimmuz/Portfolio-Assignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shimmuz/Portfolio-Assignment/issues"
+  },
+  "homepage": "https://github.com/shimmuz/Portfolio-Assignment#readme"
 }

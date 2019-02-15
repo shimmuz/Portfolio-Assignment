@@ -5,16 +5,16 @@ let router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
+router.get('/aboutme', function(req, res, next) {
+  res.render('index', { title: 'About Me' });
 });
 
-router.get('/contcat', function(req, res, next) {
+router.get('/contact', function(req, res, next) {
   res.render('index', { title: 'Contact' });
 });
 
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+router.get('/projects', function(req, res, next) {
+  res.render('index', { title: 'Projects' });
 });
 
 router.get('/services', function(req, res, next) {
