@@ -21,6 +21,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/public/Content/Assests/images',express.static('./public/Content/Assests/images'));
+app.use('/public/Content/Assests',express.static('./public/Content/Assests'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
