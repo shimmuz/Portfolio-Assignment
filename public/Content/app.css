@@ -4,9 +4,10 @@ Name : Shefali Sharma
 Id:  300973745
 Date :Feb 16, 2019*/
 
-/* backgrondc color to website */
+/* backgrond to website */
 body {
-  background-color: rgb(211, 211, 211);  
+  /* background-color: rgb(211, 211, 211);   */
+  background-image: url(/public/Content/Assests/images/portfolio.jpg);
 }
 /* heading alignment */
 h1 {
